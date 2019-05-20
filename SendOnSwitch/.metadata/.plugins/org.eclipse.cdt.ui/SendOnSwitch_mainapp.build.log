@@ -1,0 +1,7 @@
+09:35:33 **** Clean-only build of configuration Debug for project SendOnSwitch_mainapp ****
+"C:\\ModusToolbox_1.1\\tools\\modus-shell-1.0\\bin\\make" -j4 clean 
+rm -rf  ./psoc6sw-1.1/components/psoc6pdl/devices/psoc6/startup/gcc/startup_psoc6_01_cm4.o  ./psoc6sw-1.1/components/psoc6pdl/devices/psoc6/startup/system_psoc6_cm4.o  ./Source/main.o  ./OnethinxCore/OnethinxCore01.o  ./GeneratedSource/cycfg.o ./GeneratedSource/cycfg_clocks.o ./GeneratedSource/cycfg_peripherals.o ./GeneratedSource/cycfg_pins.o ./GeneratedSource/cycfg_platform.o ./GeneratedSource/cycfg_routing.o  ./psoc6sw-1.1/components/psoc6pdl/devices/psoc6/startup/gcc/startup_psoc6_01_cm4.d  ./psoc6sw-1.1/components/psoc6pdl/devices/psoc6/startup/system_psoc6_cm4.d  ./Source/main.d  ./OnethinxCore/OnethinxCore01.d  ./GeneratedSource/cycfg.d ./GeneratedSource/cycfg_clocks.d ./GeneratedSource/cycfg_peripherals.d ./GeneratedSource/cycfg_pins.d ./GeneratedSource/cycfg_platform.d ./GeneratedSource/cycfg_routing.d  SendOnSwitch_mainapp.elf
+ 
+
+09:35:33 Build Finished (took 535ms)
+

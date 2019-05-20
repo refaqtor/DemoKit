@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component_data>
+  <File wkspFile="design.modus" installFile="design.modus" checksum="953B38BDF1747B1D5DFC042F2D17D8AB7A385EAB"/>
+  <File wkspFile="psoc6sw-1.1\components\psoc6pdl\devices\psoc6\startup\gcc\startup_psoc6_01_cm4.S" installFile="psoc6sw-1.1\components\psoc6pdl\devices\psoc6\startup\gcc\startup_psoc6_01_cm4.S" checksum="F588109B80706A2549C1FE9D3E7A526A6F1B3CC9"/>
+  <File wkspFile="cy8c6xx7_cm4.ld" installFile="psoc6sw-1.1\components\psoc6pdl\devices\psoc6\linker\gcc\cy8c6xx7_cm4.ld" checksum="AB225131F0151949B008B7AA4865EBC8BDB281C6"/>
+  <File wkspFile="psoc6sw-1.1\components\psoc6pdl\devices\psoc6\startup\system_psoc6_cm4.c" installFile="psoc6sw-1.1\components\psoc6pdl\devices\psoc6\startup\system_psoc6_cm4.c" checksum="B3800034C363591C13FC0B3040350334DA5252A3"/>
+  <File wkspFile="setup_readme.txt" installFile="setup_readme.txt" checksum="EF56E62FAD0785F5FCA9B395875139D688ADEA1A"/>
+  <File wkspFile="Source\main.c" installFile="Source\main.c" checksum="39EAF7B90E263039DF022E34AC266F9F3DEED3C5"/>
+  <artifact name="mainapp"/>
+</component_data>
