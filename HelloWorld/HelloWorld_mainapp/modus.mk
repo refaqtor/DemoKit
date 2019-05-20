@@ -1,5 +1,5 @@
 # This is a file used and owned by the ModusToolbox IDE. Users should not modify this file.
-DEVICE=CY8C6137BZI-F54
+DEVICE=CY8C6347BZI-BLD53
 ################################################################################
 # \file modus.mk
 # \version 1.0
@@ -48,7 +48,7 @@ VFP_FLAG = soft
 # The target platform for the example
 #
 PLATFORMS_VERSION = 1.0
-PLATFORM=PSOC6_SINGLE_CORE
+PLATFORM=PSOC6_DUAL_CORE
 
 #
 # The default name of this example

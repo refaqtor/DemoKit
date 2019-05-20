@@ -30,7 +30,6 @@ extern "C" {
 #endif
 
 #include "cycfg_notices.h"
-#include "cycfg_clocks.h"
 #include "cycfg_pins.h"
 #include "cycfg_platform.h"
 #include "cycfg_routing.h"

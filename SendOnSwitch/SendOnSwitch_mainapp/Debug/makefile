@@ -36,13 +36,13 @@ endif
 all: SendOnSwitch_mainapp.elf secondary-outputs
 
 dependents:
-	-cd C:/Users/Gebruiker/Desktop/HIER/DemoKit-master/SendOnSwitch/psoc6pdl_Cortex-M4/Debug && $(MAKE) clean all
+	-cd C:/Users/Gebruiker/Desktop/OnethinxExampleProjects\ Modus11/SendOnSwitch/psoc6pdl_Cortex-M4/Debug && $(MAKE) clean all
 
 # Tool invocations
-SendOnSwitch_mainapp.elf: $(OBJS) $(USER_OBJS) C:/Users/Gebruiker/Desktop/HIER/DemoKit-master/SendOnSwitch/psoc6pdl_Cortex-M4/Debug/libpsoc6pdl_Cortex-M4.a
+SendOnSwitch_mainapp.elf: $(OBJS) $(USER_OBJS) C:/Users/Gebruiker/Desktop/OnethinxExampleProjects\ Modus11/SendOnSwitch/psoc6pdl_Cortex-M4/Debug/libpsoc6pdl_Cortex-M4.a
 	@echo 'Building target: $@'
 	@echo 'Invoking: GNU ARM Cross C Linker'
-	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=softfp -Og -ffunction-sections -fdata-sections -Wall  -g3 -T "C:\Users\Gebruiker\Desktop\HIER\DemoKit-master\SendOnSwitch\SendOnSwitch_mainapp/cy8c6xx7_cm4.ld" -Xlinker --gc-sections -Wl,-Map,"SendOnSwitch_mainapp.map" --specs=nano.specs -ffat-lto-objects -g --enable-objc-gc -mfpu=fpv4-sp-d16 -o "SendOnSwitch_mainapp.elf" -Wl,--start-group $(OBJS) $(USER_OBJS) $(LIBS) -Wl,--end-group
+	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=softfp -Og -ffunction-sections -fdata-sections -Wall  -g3 -T "C:\Users\Gebruiker\Desktop\OnethinxExampleProjects Modus11\SendOnSwitch\SendOnSwitch_mainapp/cy8c6xx7_cm4_dual.ld" -Xlinker --gc-sections -Wl,-Map,"SendOnSwitch_mainapp.map" --specs=nano.specs -ffat-lto-objects -g --enable-objc-gc -mfpu=fpv4-sp-d16 -o "SendOnSwitch_mainapp.elf" -Wl,--start-group $(OBJS) $(USER_OBJS) $(LIBS) -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build
@@ -53,12 +53,12 @@ clean:
 	-@echo ' '
 
 post-build:
-	-C:/ModusToolbox_1.1/tools/modus-shell-1.0/bin/bash --norc --noprofile C:/ModusToolbox_1.1/libraries/psoc6sw-1.1/makefiles/platforms/PSoC6_cm4_single/cymcuelftool_postbuild.bash C:/ModusToolbox_1.1/tools/cymcuelftool-1.0/bin/cymcuelftool C:\Users\Gebruiker\Desktop\HIER\DemoKit-master\SendOnSwitch\SendOnSwitch_mainapp/Debug/SendOnSwitch_mainapp.elf
+	-C:/ModusToolbox_1.1/tools/modus-shell-1.0/bin/bash --norc --noprofile C:/ModusToolbox_1.1/libraries/psoc6sw-1.1/makefiles/platforms/PSoC6_cm4_single/cymcuelftool_postbuild.bash C:/ModusToolbox_1.1/tools/cymcuelftool-1.0/bin/cymcuelftool C:\Users\Gebruiker\Desktop\OnethinxExampleProjects Modus11\SendOnSwitch\SendOnSwitch_mainapp/Debug/SendOnSwitch_mainapp.elf ARM_CM4
 	-@echo ' '
 
 secondary-outputs:
 
 .PHONY: all clean dependents post-build
-C:/Users/Gebruiker/Desktop/HIER/DemoKit-master/SendOnSwitch/psoc6pdl_Cortex-M4/Debug/libpsoc6pdl_Cortex-M4.a:
+C:/Users/Gebruiker/Desktop/OnethinxExampleProjects\ Modus11/SendOnSwitch/psoc6pdl_Cortex-M4/Debug/libpsoc6pdl_Cortex-M4.a:
 
 -include ../makefile.targets

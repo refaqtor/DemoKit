@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project>
-	<configuration id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.196889984" name="Debug">
+	<configuration id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.766784691" name="Debug">
 		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
 			<provider id="ilg.gnuarmeclipse.managedbuild.cross.GCCBuiltinSpecsDetector">
 				<language id="org.eclipse.cdt.core.gcc">
@@ -12,6 +12,9 @@
 					</entry>
 					<entry kind="includePath" name="/LightSensor_mainapp/OnethinxCore">
 						<flag value="BUILTIN|READONLY|VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="C:/ModusToolbox_1.1/libraries/psoc6sw-1.1/components/psoc6pdl/cmsis/include">
+						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="includePath" name="C:/ModusToolbox_1.1/libraries/psoc6sw-1.1/components/psoc6pdl/drivers/include">
 						<flag value="BUILTIN|READONLY"/>
@@ -34,19 +37,22 @@
 					<entry kind="includePath" name="C:/ModusToolbox_1.1/libraries/psoc6sw-1.1/components/psoc6pdl/devices/psoc6/linker/cm4">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/Program Files (x86)/GNU Tools ARM Embedded/8 2018-q4-major/lib/gcc/arm-none-eabi/8.2.1/include">
+					<entry kind="includePath" name="C:/ModusToolbox_1.1/libraries/psoc6sw-1.1/components/psoc6pdl/devices/psoc6/cm0p/prebuilt">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/Program Files (x86)/GNU Tools ARM Embedded/8 2018-q4-major/lib/gcc/arm-none-eabi/8.2.1/include-fixed">
+					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/Program Files (x86)/GNU Tools ARM Embedded/8 2018-q4-major/arm-none-eabi/include">
+					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include-fixed">
+						<flag value="BUILTIN|READONLY"/>
+					</entry>
+					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/arm-none-eabi/include">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="APP_NAME" value="'LightSensor_cm4'">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="CY8C6137BZI_F54" value="1">
+					<entry kind="macro" name="CY8C6347BZI_BLD53" value="1">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="DEBUG" value="1">
@@ -487,9 +493,6 @@
 					<entry kind="macro" name="__FP_FAST_FMAF" value="1">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="__FP_FAST_FMAF32" value="1">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
 					<entry kind="macro" name="__FRACT_EPSILON__" value="0x1P-15R">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
@@ -565,10 +568,10 @@
 					<entry kind="macro" name="__GNUC_STDC_INLINE__" value="1">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="__GNUC__" value="8">
+					<entry kind="macro" name="__GNUC__" value="7">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="__GXX_ABI_VERSION" value="1013">
+					<entry kind="macro" name="__GXX_ABI_VERSION" value="1011">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="__GXX_TYPEINFO_EQUALITY_INLINE" value="0">
@@ -1291,7 +1294,7 @@
 					<entry kind="macro" name="__UTQ_IBIT__" value="0">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="__VERSION__" value="&quot;8.2.1 20181213 (release) [gcc-8-branch revision 267074]&quot;">
+					<entry kind="macro" name="__VERSION__" value="&quot;7.2.1 20170904 (release) [ARM/embedded-7-branch revision 255204]&quot;">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="__VFP_FP__" value="1">
@@ -1338,22 +1341,22 @@
 					</entry>
 				</language>
 				<language id="org.eclipse.cdt.core.g++">
-					<entry kind="includePath" name="C:/Program Files (x86)/GNU Tools ARM Embedded/8 2018-q4-major/arm-none-eabi/include/c++/8.2.1">
+					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/arm-none-eabi/include/c++/7.2.1">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/Program Files (x86)/GNU Tools ARM Embedded/8 2018-q4-major/arm-none-eabi/include/c++/8.2.1/arm-none-eabi/thumb/v7e-m+fp/softfp">
+					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/arm-none-eabi/include/c++/7.2.1/arm-none-eabi">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/Program Files (x86)/GNU Tools ARM Embedded/8 2018-q4-major/arm-none-eabi/include/c++/8.2.1/backward">
+					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/arm-none-eabi/include/c++/7.2.1/backward">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/Program Files (x86)/GNU Tools ARM Embedded/8 2018-q4-major/lib/gcc/arm-none-eabi/8.2.1/include">
+					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/Program Files (x86)/GNU Tools ARM Embedded/8 2018-q4-major/lib/gcc/arm-none-eabi/8.2.1/include-fixed">
+					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include-fixed">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/Program Files (x86)/GNU Tools ARM Embedded/8 2018-q4-major/arm-none-eabi/include">
+					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/arm-none-eabi/include">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="__ACCUM_EPSILON__" value="0x1P-15K">
@@ -1410,9 +1413,6 @@
 					<entry kind="macro" name="__ARM_FEATURE_DSP" value="1">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="__ARM_FEATURE_FMA" value="1">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
 					<entry kind="macro" name="__ARM_FEATURE_IDIV" value="1">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
@@ -1431,7 +1431,7 @@
 					<entry kind="macro" name="__ARM_FEATURE_UNALIGNED" value="1">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="__ARM_FP" value="4">
+					<entry kind="macro" name="__ARM_FP" value="12">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="__ARM_PCS" value="1">
@@ -1794,12 +1794,6 @@
 					<entry kind="macro" name="__FLT_RADIX__" value="2">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="__FP_FAST_FMAF" value="1">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
-					<entry kind="macro" name="__FP_FAST_FMAF32" value="1">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
 					<entry kind="macro" name="__FRACT_EPSILON__" value="0x1P-15R">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
@@ -1860,10 +1854,10 @@
 					<entry kind="macro" name="__GCC_HAVE_SYNC_COMPARE_AND_SWAP_4" value="1">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="__GCC_IEC_559" value="0">
+					<entry kind="macro" name="__GCC_IEC_559" value="2">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="__GCC_IEC_559_COMPLEX" value="0">
+					<entry kind="macro" name="__GCC_IEC_559_COMPLEX" value="2">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="__GNUC_MINOR__" value="2">
@@ -1875,13 +1869,13 @@
 					<entry kind="macro" name="__GNUC_STDC_INLINE__" value="1">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="__GNUC__" value="8">
+					<entry kind="macro" name="__GNUC__" value="7">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="__GNUG__" value="8">
+					<entry kind="macro" name="__GNUG__" value="7">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="__GXX_ABI_VERSION" value="1013">
+					<entry kind="macro" name="__GXX_ABI_VERSION" value="1011">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="__GXX_EXPERIMENTAL_CXX0X__" value="1">
@@ -2610,7 +2604,7 @@
 					<entry kind="macro" name="__UTQ_IBIT__" value="0">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="__VERSION__" value="&quot;8.2.1 20181213 (release) [gcc-8-branch revision 267074]&quot;">
+					<entry kind="macro" name="__VERSION__" value="&quot;7.2.1 20170904 (release) [ARM/embedded-7-branch revision 255204]&quot;">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="__VFP_FP__" value="1">
@@ -2709,9 +2703,6 @@
 					<entry kind="macro" name="__cpp_static_assert" value="200410">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="__cpp_threadsafe_static_init" value="200806">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
 					<entry kind="macro" name="__cpp_unicode_characters" value="200704">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
@@ -2740,7 +2731,7 @@
 			</provider>
 		</extension>
 	</configuration>
-	<configuration id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.81515699" name="Release">
+	<configuration id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.1348496965" name="Release">
 		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
 			<provider id="ilg.gnuarmeclipse.managedbuild.cross.GCCBuiltinSpecsDetector">
 				<language id="org.eclipse.cdt.core.gcc">
@@ -2771,19 +2762,22 @@
 					<entry kind="includePath" name="C:/ModusToolbox_1.1/libraries/psoc6sw-1.1/components/psoc6pdl/devices/psoc6/linker/cm4">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/Program Files (x86)/GNU Tools ARM Embedded/8 2018-q4-major/lib/gcc/arm-none-eabi/8.2.1/include">
+					<entry kind="includePath" name="C:/ModusToolbox_1.1/libraries/psoc6sw-1.1/components/psoc6pdl/devices/psoc6/cm0p/prebuilt">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/Program Files (x86)/GNU Tools ARM Embedded/8 2018-q4-major/lib/gcc/arm-none-eabi/8.2.1/include-fixed">
+					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/Program Files (x86)/GNU Tools ARM Embedded/8 2018-q4-major/arm-none-eabi/include">
+					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include-fixed">
+						<flag value="BUILTIN|READONLY"/>
+					</entry>
+					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/arm-none-eabi/include">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="APP_NAME" value="'LightSensor_cm4'">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="CY8C6137BZI_F54" value="1">
+					<entry kind="macro" name="CY8C6347BZI_BLD53" value="1">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="NDEBUG" value="1">
@@ -3224,9 +3218,6 @@
 					<entry kind="macro" name="__FP_FAST_FMAF" value="1">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="__FP_FAST_FMAF32" value="1">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
 					<entry kind="macro" name="__FRACT_EPSILON__" value="0x1P-15R">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
@@ -3302,10 +3293,10 @@
 					<entry kind="macro" name="__GNUC_STDC_INLINE__" value="1">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="__GNUC__" value="8">
+					<entry kind="macro" name="__GNUC__" value="7">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="__GXX_ABI_VERSION" value="1013">
+					<entry kind="macro" name="__GXX_ABI_VERSION" value="1011">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="__GXX_TYPEINFO_EQUALITY_INLINE" value="0">
@@ -4031,7 +4022,7 @@
 					<entry kind="macro" name="__UTQ_IBIT__" value="0">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="__VERSION__" value="&quot;8.2.1 20181213 (release) [gcc-8-branch revision 267074]&quot;">
+					<entry kind="macro" name="__VERSION__" value="&quot;7.2.1 20170904 (release) [ARM/embedded-7-branch revision 255204]&quot;">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="__VFP_FP__" value="1">
@@ -4078,22 +4069,22 @@
 					</entry>
 				</language>
 				<language id="org.eclipse.cdt.core.g++">
-					<entry kind="includePath" name="C:/Program Files (x86)/GNU Tools ARM Embedded/8 2018-q4-major/arm-none-eabi/include/c++/8.2.1">
+					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/arm-none-eabi/include/c++/7.2.1">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/Program Files (x86)/GNU Tools ARM Embedded/8 2018-q4-major/arm-none-eabi/include/c++/8.2.1/arm-none-eabi/thumb/v7e-m+fp/softfp">
+					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/arm-none-eabi/include/c++/7.2.1/arm-none-eabi">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/Program Files (x86)/GNU Tools ARM Embedded/8 2018-q4-major/arm-none-eabi/include/c++/8.2.1/backward">
+					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/arm-none-eabi/include/c++/7.2.1/backward">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/Program Files (x86)/GNU Tools ARM Embedded/8 2018-q4-major/lib/gcc/arm-none-eabi/8.2.1/include">
+					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/Program Files (x86)/GNU Tools ARM Embedded/8 2018-q4-major/lib/gcc/arm-none-eabi/8.2.1/include-fixed">
+					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include-fixed">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/Program Files (x86)/GNU Tools ARM Embedded/8 2018-q4-major/arm-none-eabi/include">
+					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/arm-none-eabi/include">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="__ACCUM_EPSILON__" value="0x1P-15K">
@@ -4150,9 +4141,6 @@
 					<entry kind="macro" name="__ARM_FEATURE_DSP" value="1">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="__ARM_FEATURE_FMA" value="1">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
 					<entry kind="macro" name="__ARM_FEATURE_IDIV" value="1">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
@@ -4171,7 +4159,7 @@
 					<entry kind="macro" name="__ARM_FEATURE_UNALIGNED" value="1">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="__ARM_FP" value="4">
+					<entry kind="macro" name="__ARM_FP" value="12">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="__ARM_PCS" value="1">
@@ -4534,12 +4522,6 @@
 					<entry kind="macro" name="__FLT_RADIX__" value="2">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="__FP_FAST_FMAF" value="1">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
-					<entry kind="macro" name="__FP_FAST_FMAF32" value="1">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
 					<entry kind="macro" name="__FRACT_EPSILON__" value="0x1P-15R">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
@@ -4600,10 +4582,10 @@
 					<entry kind="macro" name="__GCC_HAVE_SYNC_COMPARE_AND_SWAP_4" value="1">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="__GCC_IEC_559" value="0">
+					<entry kind="macro" name="__GCC_IEC_559" value="2">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="__GCC_IEC_559_COMPLEX" value="0">
+					<entry kind="macro" name="__GCC_IEC_559_COMPLEX" value="2">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="__GNUC_MINOR__" value="2">
@@ -4615,13 +4597,13 @@
 					<entry kind="macro" name="__GNUC_STDC_INLINE__" value="1">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="__GNUC__" value="8">
+					<entry kind="macro" name="__GNUC__" value="7">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="__GNUG__" value="8">
+					<entry kind="macro" name="__GNUG__" value="7">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="__GXX_ABI_VERSION" value="1013">
+					<entry kind="macro" name="__GXX_ABI_VERSION" value="1011">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="__GXX_EXPERIMENTAL_CXX0X__" value="1">
@@ -5353,7 +5335,7 @@
 					<entry kind="macro" name="__UTQ_IBIT__" value="0">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="__VERSION__" value="&quot;8.2.1 20181213 (release) [gcc-8-branch revision 267074]&quot;">
+					<entry kind="macro" name="__VERSION__" value="&quot;7.2.1 20170904 (release) [ARM/embedded-7-branch revision 255204]&quot;">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="__VFP_FP__" value="1">
@@ -5450,9 +5432,6 @@
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="__cpp_static_assert" value="200410">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
-					<entry kind="macro" name="__cpp_threadsafe_static_init" value="200806">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="__cpp_unicode_characters" value="200704">

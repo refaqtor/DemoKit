@@ -57,6 +57,12 @@
 #define CY_CFG_PWR_VBAC_SUPPLY CY_CFG_PWR_VBAC_SUPPLY_VDD
 #define CY_CFG_PWR_LDO_VOLTAGE CY_SYSPM_LDO_VOLTAGE_1_1V
 #define CY_CFG_PWR_USING_ULP 0
+#define CY_CFG_PWR_VDDA_MV 3300
+#define CY_CFG_PWR_VDDD_MV 3300
+#define CY_CFG_PWR_VBACKUP_MV 3300
+#define CY_CFG_PWR_VDD_NS_MV 3300
+#define CY_CFG_PWR_VDDIO0_MV 3300
+#define CY_CFG_PWR_VDDIO1_MV 3300
 
 static const cy_stc_fll_manual_config_t srss_0_clock_0_fll_0_fllConfig = 
 {
@@ -79,11 +85,11 @@ __WEAK void cycfg_ClockStartupError(uint32_t error)
 }
 __STATIC_INLINE void Cy_SysClk_AltHfInit()
 {
-    //cy_en_ble_eco_status_t status = Cy_BLE_EcoConfigure(CY_BLE_BLESS_ECO_FREQ_32MHZ, CY_BLE_SYS_ECO_CLK_DIV_4, 22U, 25U, CY_BLE_ECO_VOLTAGE_REG_AUTO);
-    //if ((CY_BLE_ECO_SUCCESS != status) && (CY_BLE_ECO_ALREADY_STARTED !=status))
-    //{
-    //    cycfg_ClockStartupError(CY_CFG_SYSCLK_ALTHF_ERROR);
-    //}
+    cy_en_ble_eco_status_t status = Cy_BLE_EcoConfigure(CY_BLE_BLESS_ECO_FREQ_32MHZ, CY_BLE_SYS_ECO_CLK_DIV_4, 22U, 25U, CY_BLE_ECO_VOLTAGE_REG_AUTO);
+    if ((CY_BLE_ECO_SUCCESS != status) && (CY_BLE_ECO_ALREADY_STARTED !=status))
+    {
+        cycfg_ClockStartupError(CY_CFG_SYSCLK_ALTHF_ERROR);
+    }
 }
 __STATIC_INLINE void Cy_SysClk_ClkFastInit()
 {
@@ -161,12 +167,7 @@ void init_cycfg_platform(void)
 	/* Set worst case memory wait states (! ultra low power, 150 MHz), will update at the end */
 	Cy_SysLib_SetWaitStates(false, 150UL);
 	#if (CY_CFG_PWR_VBAC_SUPPLY == CY_CFG_PWR_VBAC_SUPPLY_VDD)
-	if (0u == Cy_SysLib_GetResetReason() /* POR, XRES, or BOD */)
-	{
-	    Cy_SysLib_ResetBackupDomain();
-	    Cy_SysClk_IloDisable();
-	    Cy_SysClk_WcoInit();
-	}
+	if (0u == Cy_SysLib_GetResetReason() /* POR, XRES, or BOD */){ Cy_SysLib_ResetBackupDomain(); }
 	#endif
 	#ifdef CY_CFG_PWR_ENABLED
 	/* Configure power mode */
@@ -201,9 +202,6 @@ void init_cycfg_platform(void)
 	Cy_SysClk_FllDisable();
 	Cy_SysClk_ClkPathSetSource(CY_SYSCLK_CLKHF_IN_CLKPATH0, CY_SYSCLK_CLKPATH_IN_IMO);
 	Cy_SysClk_ClkHfSetSource(0UL, CY_SYSCLK_CLKHF_IN_CLKPATH0);
-	#ifdef CY_IP_MXBLESS
-	(void)Cy_BLE_EcoReset();
-	#endif
 	
 	#ifdef CY_CFG_SYSCLK_PLL1_AVAILABLE
 	(void)Cy_SysClk_PllDisable(CY_SYSCLK_CLKHF_IN_CLKPATH2);
