@@ -4,20 +4,11 @@
 		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
 			<provider id="ilg.gnuarmeclipse.managedbuild.cross.GCCBuiltinSpecsDetector">
 				<language id="org.eclipse.cdt.core.gcc">
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/libraries/psoc6sw-1.1/components/psoc6pdl/devices/psoc6/include">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
 					<entry kind="includePath" name="/SendOnSwitch_mainapp/DemoKit">
 						<flag value="BUILTIN|READONLY|VALUE_WORKSPACE_PATH|RESOLVED"/>
 					</entry>
 					<entry kind="includePath" name="/SendOnSwitch_mainapp/OnethinxCore">
 						<flag value="BUILTIN|READONLY|VALUE_WORKSPACE_PATH|RESOLVED"/>
-					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/libraries/psoc6sw-1.1/components/psoc6pdl/cmsis/include">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/libraries/psoc6sw-1.1/components/psoc6pdl/drivers/include">
-						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="includePath" name="/SendOnSwitch_mainapp/GeneratedSource">
 						<flag value="BUILTIN|READONLY|VALUE_WORKSPACE_PATH|RESOLVED"/>
@@ -25,28 +16,13 @@
 					<entry kind="includePath" name="/SendOnSwitch_mainapp/Source">
 						<flag value="BUILTIN|READONLY|VALUE_WORKSPACE_PATH|RESOLVED"/>
 					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/libraries/psoc6sw-1.1/components/psoc6pdl/drivers/source">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/libraries/psoc6sw-1.1/components/psoc6pdl/devices/psoc6/startup/cm4_low">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include-fixed">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/libraries/psoc6sw-1.1/components/psoc6pdl/devices/psoc6/startup/cm4_high">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/libraries/psoc6sw-1.1/components/psoc6pdl/devices/psoc6/linker/cm4">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/libraries/psoc6sw-1.1/components/psoc6pdl/devices/psoc6/cm0p/prebuilt">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include-fixed">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/arm-none-eabi/include">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/arm-none-eabi/include">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="APP_NAME" value="'SendOnSwitch_cm4'">
@@ -1341,22 +1317,22 @@
 					</entry>
 				</language>
 				<language id="org.eclipse.cdt.core.g++">
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/arm-none-eabi/include/c++/7.2.1">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/arm-none-eabi/include/c++/7.2.1">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/arm-none-eabi/include/c++/7.2.1/arm-none-eabi">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/arm-none-eabi/include/c++/7.2.1/arm-none-eabi">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/arm-none-eabi/include/c++/7.2.1/backward">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/arm-none-eabi/include/c++/7.2.1/backward">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include-fixed">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include-fixed">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/arm-none-eabi/include">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/arm-none-eabi/include">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="__ACCUM_EPSILON__" value="0x1P-15K">
@@ -2735,43 +2711,19 @@
 		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
 			<provider id="ilg.gnuarmeclipse.managedbuild.cross.GCCBuiltinSpecsDetector">
 				<language id="org.eclipse.cdt.core.gcc">
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/libraries/psoc6sw-1.1/components/psoc6pdl/devices/psoc6/include">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/libraries/psoc6sw-1.1/components/psoc6pdl/cmsis/include">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/libraries/psoc6sw-1.1/components/psoc6pdl/drivers/include">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
 					<entry kind="includePath" name="/SendOnSwitch_mainapp/GeneratedSource">
 						<flag value="BUILTIN|READONLY|VALUE_WORKSPACE_PATH|RESOLVED"/>
 					</entry>
 					<entry kind="includePath" name="/SendOnSwitch_mainapp/Source">
 						<flag value="BUILTIN|READONLY|VALUE_WORKSPACE_PATH|RESOLVED"/>
 					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/libraries/psoc6sw-1.1/components/psoc6pdl/drivers/source">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/libraries/psoc6sw-1.1/components/psoc6pdl/devices/psoc6/startup/cm4_low">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include-fixed">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/libraries/psoc6sw-1.1/components/psoc6pdl/devices/psoc6/startup/cm4_high">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/libraries/psoc6sw-1.1/components/psoc6pdl/devices/psoc6/linker/cm4">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/libraries/psoc6sw-1.1/components/psoc6pdl/devices/psoc6/cm0p/prebuilt">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include-fixed">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/arm-none-eabi/include">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/arm-none-eabi/include">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="APP_NAME" value="'SendOnSwitch_cm4'">
@@ -4069,22 +4021,22 @@
 					</entry>
 				</language>
 				<language id="org.eclipse.cdt.core.g++">
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/arm-none-eabi/include/c++/7.2.1">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/arm-none-eabi/include/c++/7.2.1">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/arm-none-eabi/include/c++/7.2.1/arm-none-eabi">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/arm-none-eabi/include/c++/7.2.1/arm-none-eabi">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/arm-none-eabi/include/c++/7.2.1/backward">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/arm-none-eabi/include/c++/7.2.1/backward">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include-fixed">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include-fixed">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/arm-none-eabi/include">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/arm-none-eabi/include">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="__ACCUM_EPSILON__" value="0x1P-15K">

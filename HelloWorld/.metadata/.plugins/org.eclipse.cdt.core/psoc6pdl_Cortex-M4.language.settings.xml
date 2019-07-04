@@ -4,22 +4,13 @@
 		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
 			<provider id="ilg.gnuarmeclipse.managedbuild.cross.GCCBuiltinSpecsDetector">
 				<language id="org.eclipse.cdt.core.gcc">
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/libraries/psoc6sw-1.1/components/psoc6pdl/cmsis/include">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/libraries/psoc6sw-1.1/components/psoc6pdl/devices/psoc6/include">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include-fixed">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/libraries/psoc6sw-1.1/components/psoc6pdl/drivers/include">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include-fixed">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/arm-none-eabi/include">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/arm-none-eabi/include">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="CY_DEVICE_COMMON" value="1">
@@ -1308,22 +1299,22 @@
 					</entry>
 				</language>
 				<language id="org.eclipse.cdt.core.g++">
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/arm-none-eabi/include/c++/7.2.1">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/arm-none-eabi/include/c++/7.2.1">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/arm-none-eabi/include/c++/7.2.1/arm-none-eabi">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/arm-none-eabi/include/c++/7.2.1/arm-none-eabi">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/arm-none-eabi/include/c++/7.2.1/backward">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/arm-none-eabi/include/c++/7.2.1/backward">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include-fixed">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include-fixed">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/arm-none-eabi/include">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/arm-none-eabi/include">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="__ACCUM_EPSILON__" value="0x1P-15K">
@@ -1842,9 +1833,6 @@
 					<entry kind="macro" name="__GNUG__" value="7">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="__GXX_ABI_VERSION" value="1011">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
 					<entry kind="macro" name="__GXX_EXPERIMENTAL_CXX0X__" value="1">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
@@ -1984,6 +1972,9 @@
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="__INT_LEAST64_TYPE__" value="long long int">
+						<flag value="BUILTIN|READONLY"/>
+					</entry>
+					<entry kind="macro" name="__INT_LEAST64_TYPE__" value="long unsigned int">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="__INT_LEAST64_WIDTH__" value="64">
@@ -2430,9 +2421,6 @@
 					<entry kind="macro" name="__UINT_LEAST32_MAX__" value="0xffffffffUL">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="__UINT_LEAST32_TYPE__" value="long unsigned int">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
 					<entry kind="macro" name="__UINT_LEAST64_MAX__" value="0xffffffffffffffffULL">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
@@ -2643,6 +2631,9 @@
 					<entry kind="macro" name="__cpp_lambdas" value="200907">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
+					<entry kind="macro" name="__cpp_lambdas" value="1011">
+						<flag value="BUILTIN|READONLY"/>
+					</entry>
 					<entry kind="macro" name="__cpp_nsdmi" value="200809">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
@@ -2702,22 +2693,13 @@
 		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
 			<provider id="ilg.gnuarmeclipse.managedbuild.cross.GCCBuiltinSpecsDetector">
 				<language id="org.eclipse.cdt.core.gcc">
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/libraries/psoc6sw-1.1/components/psoc6pdl/cmsis/include">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/libraries/psoc6sw-1.1/components/psoc6pdl/devices/psoc6/include">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include-fixed">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/libraries/psoc6sw-1.1/components/psoc6pdl/drivers/include">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include-fixed">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/arm-none-eabi/include">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/arm-none-eabi/include">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="CY_DEVICE_COMMON" value="1">
@@ -4009,22 +3991,22 @@
 					</entry>
 				</language>
 				<language id="org.eclipse.cdt.core.g++">
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/arm-none-eabi/include/c++/7.2.1">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/arm-none-eabi/include/c++/7.2.1">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/arm-none-eabi/include/c++/7.2.1/arm-none-eabi">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/arm-none-eabi/include/c++/7.2.1/arm-none-eabi">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/arm-none-eabi/include/c++/7.2.1/backward">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/arm-none-eabi/include/c++/7.2.1/backward">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include-fixed">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/lib/gcc/arm-none-eabi/7.2.1/include-fixed">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="C:/ModusToolbox_1.1/tools/gcc-7.2.1-1.0/arm-none-eabi/include">
+					<entry kind="includePath" name="C:/ModusToolbox_1.0/tools/gcc-7.2.1-1.0/arm-none-eabi/include">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="__ACCUM_EPSILON__" value="0x1P-15K">

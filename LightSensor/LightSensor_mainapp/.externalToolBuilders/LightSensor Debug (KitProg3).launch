@@ -17,7 +17,7 @@
 <stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.openocd.gdbServerExecutable" value="${cy_tools_path:openocd}/bin/openocd"/>
 <intAttribute key="ilg.gnumcueclipse.debug.gdbjtag.openocd.gdbServerGdbPortNumber" value="3333"/>
 <stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.openocd.gdbServerLog" value=""/>
-<stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.openocd.gdbServerOther" value="-s &quot;${cy_tools_path:openocd}/scripts&quot;&#13;&#10;-s &quot;${workspace_loc}/OnethinxCore_00_config/GeneratedSource&quot;&#13;&#10;-c &quot;source [find interface/kitprog3.cfg]&quot;&#13;&#10;-c &quot;transport select swd&quot;&#13;&#10;-c &quot;set ENABLE_CM0 0&quot;&#13;&#10;-c &quot;source [find target/psoc6.cfg]&quot;&#13;&#10;-c &quot;puts stderr {Started by GNU MCU Eclipse}&quot;&#13;&#10;-c &quot;init; reset init&quot;"/>
+<stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.openocd.gdbServerOther" value="-s &quot;${cy_tools_path:openocd}/scripts&quot;&#13;&#10;-s &quot;${workspace_loc}/OnethinxCore_00_config/GeneratedSource&quot;&#13;&#10;-c &quot;source [find interface/kitprog3.cfg]&quot;&#13;&#10;-c &quot;transport select swd&quot;&#13;&#10;-c &quot;set ENABLE_CM0 0&quot;&#13;&#10;-c &quot;set ENABLE_AQUIRE  0&quot;&#13;&#10;-c &quot;source [find target/psoc6.cfg]&quot;&#13;&#10;-c &quot;puts stderr {Started by GNU MCU Eclipse}&quot;&#13;&#10;-c &quot;init; reset init&quot;"/>
 <stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.openocd.gdbServerTclPortNumber" value="6666"/>
 <intAttribute key="ilg.gnumcueclipse.debug.gdbjtag.openocd.gdbServerTelnetPortNumber" value="4444"/>
 <stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.openocd.otherInitCommands" value=""/>

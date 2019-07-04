@@ -50,10 +50,9 @@
           <tags>persp.viewSC:ilg.gnumcueclipse.debug.gdbjtag.ui.views.PeripheralsView</tags>
           <tags>persp.viewSC:com.cypress.studio.views.quickpanel</tags>
           <tags>persp.viewSC:com.cypress.studio.views.quicklinks</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_1Zp3cXMNEemtgsrlE-kuFg" selectedElement="_1Zp3cnMNEemtgsrlE-kuFg" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_1Zp3cXMNEemtgsrlE-kuFg" selectedElement="_1Zp3gHMNEemtgsrlE-kuFg" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_1Zp3cnMNEemtgsrlE-kuFg" containerData="2500" selectedElement="_1Zp3c3MNEemtgsrlE-kuFg">
               <children xsi:type="basic:PartStack" xmi:id="_1Zp3c3MNEemtgsrlE-kuFg" elementId="topLeft" containerData="5000" selectedElement="_1Zp3dHMNEemtgsrlE-kuFg">
-                <tags>active</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_1Zp3dHMNEemtgsrlE-kuFg" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_1ZjJwHMNEemtgsrlE-kuFg"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_1Zp3dXMNEemtgsrlE-kuFg" elementId="org.eclipse.cdt.ui.CView" toBeRendered="false" ref="_1ZkX4HMNEemtgsrlE-kuFg"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_1Zp3dnMNEemtgsrlE-kuFg" elementId="org.eclipse.ui.views.BookmarkView" toBeRendered="false" ref="_1ZkX4XMNEemtgsrlE-kuFg"/>
@@ -79,7 +78,7 @@
                 </children>
               </children>
               <children xsi:type="basic:PartStack" xmi:id="_1Zp3hXMNEemtgsrlE-kuFg" elementId="bottom" containerData="3000" selectedElement="_1Zp3hnMNEemtgsrlE-kuFg">
-                <tags>noFocus</tags>
+                <tags>active</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_1Zp3hnMNEemtgsrlE-kuFg" elementId="org.eclipse.ui.console.ConsoleView" ref="_1Zm0InMNEemtgsrlE-kuFg"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_1Zp3h3MNEemtgsrlE-kuFg" elementId="org.eclipse.ui.views.ProblemView" ref="_1ZnbMHMNEemtgsrlE-kuFg"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_1Zp3iHMNEemtgsrlE-kuFg" elementId="org.eclipse.ui.views.ProgressView" toBeRendered="false" ref="_1ZnbMXMNEemtgsrlE-kuFg"/>
@@ -137,8 +136,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;1&quot; org.eclipse.cdt.ui.cview.groupincludes=&quot;false&quot; org.eclipse.cdt.ui.cview.groupmacros=&quot;false&quot; org.eclipse.cdt.ui.editor.CUChildren=&quot;true&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;>&#xD;&#xA;&lt;lastRecentlyUsedFilters/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_1cOqUHMNEemtgsrlE-kuFg" elementId="org.eclipse.ui.navigator.ProjectExplorer">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -223,6 +220,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_1huOUHMNEemtgsrlE-kuFg" elementId="org.eclipse.ui.console.ConsoleView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -272,7 +271,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_1VKZAHMNEemtgsrlE-kuFg" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_qq9x0Hr9EemEjL8H3aKfCA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_1GS2sXMNEemtgsrlE-kuFg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_l_ZuAJ5REemCF_J5_Z0xkQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_1GS2sXMNEemtgsrlE-kuFg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_1VLAEHMNEemtgsrlE-kuFg" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -293,7 +292,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_1VLAFHMNEemtgsrlE-kuFg" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_qrAOEHr9EemEjL8H3aKfCA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_1GRonXMNEemtgsrlE-kuFg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_l_cKQJ5REemCF_J5_Z0xkQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_1GRonXMNEemtgsrlE-kuFg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_1VLAFXMNEemtgsrlE-kuFg" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -2242,6 +2241,8 @@
   <commands xmi:id="_1UMvtXMNEemtgsrlE-kuFg" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.DisplayViewActions/org.eclipse.jdt.debug.ui.displayViewToolbar.Execute" commandName="Execute" description="Execute the Selected Text" category="_1GMv93MNEemtgsrlE-kuFg"/>
   <commands xmi:id="_1UMvtnMNEemtgsrlE-kuFg" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.DisplayViewActions/org.eclipse.jdt.debug.ui.displayViewToolbar.Display" commandName="Display" description="Display Result of Evaluating Selected Text" category="_1GMv93MNEemtgsrlE-kuFg"/>
   <commands xmi:id="_1UNWwHMNEemtgsrlE-kuFg" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.DisplayViewActions/org.eclipse.jdt.debug.ui.displayViewToolbar.Inspect" commandName="Inspect" description="Inspect Result of Evaluating Selected Text" category="_1GMv93MNEemtgsrlE-kuFg"/>
+  <commands xmi:id="_lxo-0J5REemCF_J5_Z0xkQ" elementId="com.cypress.studio.app.renameProjectSet" commandName="Rename Application" category="_lxoXwp5REemCF_J5_Z0xkQ"/>
+  <commands xmi:id="_lxpl4J5REemCF_J5_Z0xkQ" elementId="com.cypress.studio.app.changeDevice" commandName="changeDevice" category="_lxoXwZ5REemCF_J5_Z0xkQ"/>
   <addons xmi:id="_1FygS3MNEemtgsrlE-kuFg" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_1FygTHMNEemtgsrlE-kuFg" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_1FygTXMNEemtgsrlE-kuFg" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
@@ -2253,7 +2254,7 @@
   <addons xmi:id="_1FygU3MNEemtgsrlE-kuFg" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_1FygVHMNEemtgsrlE-kuFg" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_1F2xsHMNEemtgsrlE-kuFg" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_qen-8Xr9EemEjL8H3aKfCA" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_1GK6wHMNEemtgsrlE-kuFg" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>
   <categories xmi:id="_1GLh0HMNEemtgsrlE-kuFg" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>
@@ -2294,4 +2295,6 @@
   <categories xmi:id="_1GMv-HMNEemtgsrlE-kuFg" elementId="com.cypress.studio.app.commands.category.help" name="Help"/>
   <categories xmi:id="_1GMv-XMNEemtgsrlE-kuFg" elementId="org.eclipse.cdt.debug.ui.category.tracing" name="Tracing Commands" description="Category for Tracing Commands"/>
   <categories xmi:id="_1GMv-nMNEemtgsrlE-kuFg" elementId="org.eclipse.cdt.managedbuilder.ui.category.build" name="C/C++ Build" description="C/C++ Build Actions"/>
+  <categories xmi:id="_lxoXwZ5REemCF_J5_Z0xkQ" elementId="com.cypress.studio.app.commands.category.changeDevice" name="changeDevice"/>
+  <categories xmi:id="_lxoXwp5REemCF_J5_Z0xkQ" elementId="com.cypress.studio.app.commands.category.rename" name="Rename"/>
 </application:Application>

@@ -13,4 +13,4 @@ gdb.openocd.preRun.other=mon psoc6 reset_halt sysresetreq
 gdb.openocd.preRunReset.type=run
 gdb.server.doStart=true
 gdb.server.executable=${cy_tools_path\:openocd}/bin/openocd
-gdb.server.other=-s "${cy_tools_path\:openocd}/scripts"\r\n-s "${workspace_loc}/OnethinxCore_00_config/GeneratedSource"\r\n-c "source [find interface/kitprog3.cfg]"\r\n-c "transport select swd"\r\n-c "set ENABLE_CM0 0"\r\n-c "source [find target/psoc6.cfg]"\r\n-c "puts stderr {Started by GNU MCU Eclipse}"\r\n-c "init; reset init"
+gdb.server.other=-s "${cy_tools_path\:openocd}/scripts"\r\n-s "${workspace_loc}/OnethinxCore_00_config/GeneratedSource"\r\n-c "source [find interface/kitprog3.cfg]"\r\n-c "transport select swd"\r\n-c "set ENABLE_CM0 0"\r\n-c "set ENABLE_AQUIRE  0"\r\n-c "source [find target/psoc6.cfg]"\r\n-c "puts stderr {Started by GNU MCU Eclipse}"\r\n-c "init; reset init"

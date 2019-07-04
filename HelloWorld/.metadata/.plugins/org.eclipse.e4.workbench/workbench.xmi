@@ -283,7 +283,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_OnsZ8HMeEemsUfFGVU_ScQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_7DhUoHr9EemLt5WHZYdHuA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_OULoG3MeEemsUfFGVU_ScQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_WnJxoJ5REemHF_dJ7hAWnw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_OULoG3MeEemsUfFGVU_ScQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_OnsZ8XMeEemsUfFGVU_ScQ" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -304,7 +304,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_OntBAHMeEemsUfFGVU_ScQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_7Djw4Hr9EemLt5WHZYdHuA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_OUKaBnMeEemsUfFGVU_ScQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_WnMN4Z5REemHF_dJ7hAWnw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_OUKaBnMeEemsUfFGVU_ScQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_OntBAXMeEemsUfFGVU_ScQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -2274,6 +2274,8 @@
   <commands xmi:id="_OhiupnMeEemsUfFGVU_ScQ" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.DisplayViewActions/org.eclipse.jdt.debug.ui.displayViewToolbar.Execute" commandName="Execute" description="Execute the Selected Text" category="_OUETaHMeEemsUfFGVU_ScQ"/>
   <commands xmi:id="_Ohiup3MeEemsUfFGVU_ScQ" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.DisplayViewActions/org.eclipse.jdt.debug.ui.displayViewToolbar.Display" commandName="Display" description="Display Result of Evaluating Selected Text" category="_OUETaHMeEemsUfFGVU_ScQ"/>
   <commands xmi:id="_OhjVsHMeEemsUfFGVU_ScQ" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.DisplayViewActions/org.eclipse.jdt.debug.ui.displayViewToolbar.Inspect" commandName="Inspect" description="Inspect Result of Evaluating Selected Text" category="_OUETaHMeEemsUfFGVU_ScQ"/>
+  <commands xmi:id="_WTnxoJ5REemHF_dJ7hAWnw" elementId="com.cypress.studio.app.renameProjectSet" commandName="Rename Application" category="_WTnKkp5REemHF_dJ7hAWnw"/>
+  <commands xmi:id="_WTnxoZ5REemHF_dJ7hAWnw" elementId="com.cypress.studio.app.changeDevice" commandName="changeDevice" category="_WTnKkZ5REemHF_dJ7hAWnw"/>
   <addons xmi:id="_OTu8KnMeEemsUfFGVU_ScQ" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_OTu8K3MeEemsUfFGVU_ScQ" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_OTu8LHMeEemsUfFGVU_ScQ" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
@@ -2285,7 +2287,7 @@
   <addons xmi:id="_OTu8MnMeEemsUfFGVU_ScQ" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_OTu8M3MeEemsUfFGVU_ScQ" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_OTzNkHMeEemsUfFGVU_ScQ" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_WUWKYJ5REemHF_dJ7hAWnw" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_OUDsQHMeEemsUfFGVU_ScQ" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>
   <categories xmi:id="_OUDsQXMeEemsUfFGVU_ScQ" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>
@@ -2326,4 +2328,6 @@
   <categories xmi:id="_OUETaXMeEemsUfFGVU_ScQ" elementId="com.cypress.studio.app.commands.category.help" name="Help"/>
   <categories xmi:id="_OUETanMeEemsUfFGVU_ScQ" elementId="org.eclipse.cdt.debug.ui.category.tracing" name="Tracing Commands" description="Category for Tracing Commands"/>
   <categories xmi:id="_OUETa3MeEemsUfFGVU_ScQ" elementId="org.eclipse.cdt.managedbuilder.ui.category.build" name="C/C++ Build" description="C/C++ Build Actions"/>
+  <categories xmi:id="_WTnKkZ5REemHF_dJ7hAWnw" elementId="com.cypress.studio.app.commands.category.changeDevice" name="changeDevice"/>
+  <categories xmi:id="_WTnKkp5REemHF_dJ7hAWnw" elementId="com.cypress.studio.app.commands.category.rename" name="Rename"/>
 </application:Application>
