@@ -193,13 +193,13 @@ int main(void)
         errorStatus = LoRaWAN_GetError();
         if( errorStatus.errorValue != errorStatus_NoError ){
         	/* errors encountered, list the 4 categories. See OnethinxCore01.h for the enumeration */
-        	sprintf( buffer, "\rParameter error: 0x%x", (errorStatus.errorValue >> 24) && 0xFF );
+        	sprintf( buffer, "\rParameter error: 0x%x", (errorStatus.errorValue >> 24) & 0xFF );
         	Cy_SCB_UART_PutString(UART_HW, buffer );
-        	sprintf( buffer, "\rRadio Error:     0x%x", (errorStatus.errorValue >> 12) && 0xFF );
+        	sprintf( buffer, "\rRadio Error:     0x%x", (errorStatus.errorValue >> 12) & 0xFF );
         	Cy_SCB_UART_PutString(UART_HW, buffer );
-        	sprintf( buffer, "\rMAC Error:       0x%x", (errorStatus.errorValue >> 8) && 0xFF );
+        	sprintf( buffer, "\rMAC Error:       0x%x", (errorStatus.errorValue >> 8) & 0xFF );
         	Cy_SCB_UART_PutString(UART_HW, buffer );
-        	sprintf( buffer, "\rSystem Error:    0x%x",  errorStatus.errorValue && 0xFF );
+        	sprintf( buffer, "\rSystem Error:    0x%x",  errorStatus.errorValue & 0xFF );
         	Cy_SCB_UART_PutString(UART_HW, buffer );
         }
 
